@@ -1,0 +1,40 @@
+# Symfony
+/.env.local
+/.env.*.local
+/var/
+!/var/.gitkeep
+/vendor/
+
+# PHPUnit
+/.phpunit.result.cache
+
+# Composer
+/composer.lock
+
+# Logs
+*.log
+
+# Docker
+/docker/db/data/
+/docker/db/.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+# Node (if ever added)
+node_modules/
+
+# PHPUnit coverage
+/coverage/
+
+# Temporary
+tmp/
